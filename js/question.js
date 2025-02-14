@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const congratsVideo = document.getElementById("response-video");
   
     // Audio effects for button clicks.
-    const clickSound = new Audio("../assets/audio/bubble_pa2Gn0A.mp3");
-    const noSound = new Audio("../assets/audio/please2.m4a");  // Sound effect for "No" button
+    const clickSound = new Audio("./assets/audio/bubble_pa2Gn0A.mp3");
+    const noSound = new Audio("./assets/audio/please2.m4a");  // Sound effect for "No" button
   
     // Function to spawn a floating heart in the congrats page.
     function spawnHeart() {

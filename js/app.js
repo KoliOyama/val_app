@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const svg1 = document.querySelector(".svg-1");
     const svg2 = document.querySelector(".svg-2");
     const proceedBtn = document.querySelector(".proceed-btn");
-    const clickSound = new Audio("../assets/audio/bubble_pa2Gn0A.mp3");
+    const clickSound = new Audio("./assets/audio/bubble_pa2Gn0A.mp3");
   
     // Auto-play audio when the page loads
     audio.play().catch(() => console.log("Autoplay blocked"));
