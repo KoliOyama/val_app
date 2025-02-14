@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/question.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="question-container fade-in">
+        <p>Will you be my valentine? 🥺</p>
+        <div class="question-btns">
+          <button class="yes-btn">Yes</button>
+          <button class="no-btn">No</button>
+        </div>
+      </div>
+
+      <div class="congrats-container">
+        <div class="congrats-content">
+          <div class="video-container">
+            <video id="response-video" width="600" loop>
+              <source
+                id="video-source"
+                src="/assets/videos/jerry.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="end-message">
+            <h2>Congratulations, Ma Chérie!</h2>
+            <p>You won my heart 😍</p>
+          
+          </div>
+        </div>
+      </div>
+      <!-- Container for floating hearts -->
+      <div class="heart-container"></div>
+    </div>
+
+    <script src="/js/question.js"></script>
+  </body>
+</html>
