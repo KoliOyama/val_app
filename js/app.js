@@ -9,6 +9,14 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Auto-play audio when the page loads
     audio.play().catch(() => console.log("Autoplay blocked"));
+
+    document.addEventListener("click", function () {
+      const audio = document.getElementById("background-music");
+      if (audio.paused) {
+          audio.play();
+      }
+  }, { once: true }); // Ensures it runs only once
+  
   
     muteBtn.addEventListener("click", function () {
         clickSound.currentTime = 0;
